@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <link rel='stylesheet' href='style.css'>
+  <title>Wood Puzzle</title>
+</head>
+<body>
+  <div class='container'>
+    <div class='top'>
+      <div class='high-score'></div>
+      <div class='score'></div>
+      <div class='board'></div>
+    </div>
+    <div class='bottom'>
+        <div class='first'></div><!--
+     --><div class='second'></div><!--
+     --><div class='third'></div>
+    </div>
+  </div>
+  <script src='js/lib/jquery.js'></script>
+  <script src='js/lib/jquery-ui.js'></script>
+  <script src='js/board.js'></script>
+  <script src='js/figures.js'></script>
+  <script src='js/game.js'></script>
+  <script src='js/highScore.js'></script>
+  <script src='js/placeElement.js'></script>
+  <script src='js/score.js'></script>
+  <script>
+    WOOD_PUZZLE.GAME.init();
+  </script>
+</body>
+</html>
